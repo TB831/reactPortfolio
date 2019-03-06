@@ -159,7 +159,6 @@ const Projects = () => {
             </div>
           </div>
         )
-
       }
     </Spring>
   );
