@@ -5,7 +5,7 @@ const Projects = () => {
     <div className="container">
       <div className="row" style={{padding: '20px'}}>
         <div className="col s4">
-          <div className="card">
+          <div className="card z-depth-3">
             <div className="card-image waves-effect waves-block waves-light">
               <img className="activator" src='https://firebase.google.com/images/brand-guidelines/logo-vertical.png' alt="firebase logo"/>
             </div>
@@ -26,7 +26,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="col s4">
-          <div className="card">
+          <div className="card z-depth-3">
             <div className="card-image waves-effect waves-block waves-light">
               <img className="activator" src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Logo_of_Unsplash.svg/2000px-Logo_of_Unsplash.svg.png' alt="camera"/>
             </div>
@@ -47,7 +47,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="col s4">
-          <div className="card">
+          <div className="card z-depth-3">
             <div className="card-image waves-effect waves-block waves-light">
               <img className="activator" src='https://tb831.github.io/images/todo.png' alt="Checklist"/>
             </div>
@@ -68,7 +68,7 @@ const Projects = () => {
       </div>
       <div className="row">
         <div className="col s4">
-          <div className="card">
+          <div className="card z-depth-3">
             <div className="card-image waves-effect waves-block waves-light">
               <img className="activator" src='https://tb831.github.io/images/reactLogo.png' alt="React Logo"/>
             </div>
@@ -89,7 +89,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="col s4">
-          <div className="card">
+          <div className="card z-depth-3">
             <div className="card-image waves-effect waves-block waves-light">
               <img className="activator" src='https://tb831.github.io/images/brain.png' alt="Brain logo"/>
             </div>
@@ -111,7 +111,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="col s4">
-          <div className="card">
+          <div className="card z-depth-3">
             <div className="card-image waves-effect waves-block waves-light">
               <img className="activator" src='https://tb831.github.io/images/chatbot.jpg' alt="Chatbot"/>
             </div>
@@ -132,7 +132,7 @@ const Projects = () => {
       </div>
       <div className="row">
         <div className="col s4">
-          <div className="card">
+          <div className="card z-depth-3">
             <div className="card-image waves-effect waves-block waves-light">
               <img className="activator" src='https://tb831.github.io/images/ml.jpg' alt="Machine Learning"/>
             </div>
