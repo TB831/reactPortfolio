@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
+import NavBar from '../components/NavBar';
 
 class App extends Component {
   render() {
     return (
-      <h1>Hello World</h1>
+      <BrowserRouter>
+        <div>
+          <NavBar />
+        </div>
+      </BrowserRouter>
     );
   }
 }
