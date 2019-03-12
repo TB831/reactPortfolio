@@ -72,11 +72,11 @@ const resumeInfo = {
       {title: 'Express', imageUrl: 'https://buzz-prod-photos.global.ssl.fastly.net/img/06b9ed56-ced3-4078-bfc8-ca0055a69d61', imageAlt: 'Express logo'},
       {title: 'Django', imageUrl: 'http://dlyapun.com/static/images/django.png', imageAlt: 'Django logo'},
     ],
-    data: [
-      {title: 'MySQL', imageUrl: '', imageAlt: 'MySQL logo'},
-      {title: 'PostgreSQL', imageUrl: '', imageAlt: 'PostgreSQL logo'},
-      {title: 'SQLite', imageUrl: '', imageAlt: 'SQLite logo'},
-      {title: 'FireStore', imageUrl: '', imageAlt: 'Firestore logo'},
+    datas: [
+      {title: 'MySQL', imageUrl: 'https://cdn.freebiesupply.com/logos/large/2x/mysql-5-logo-png-transparent.png', imageAlt: 'MySQL logo'},
+      {title: 'PostgreSQL', imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg', imageAlt: 'PostgreSQL logo'},
+      {title: 'SQLite', imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sqlite-square-icon.svg/2000px-Sqlite-square-icon.svg.png', imageAlt: 'SQLite logo'},
+      {title: 'FireStore', imageUrl: 'https://cloud.google.com/images/products/logos/svg/firebase-realtime-database.svg', imageAlt: 'Firestore logo'},
     ]
   }
 }
