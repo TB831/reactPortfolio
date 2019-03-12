@@ -57,7 +57,22 @@ const resumeInfo = {
       imageAlt: 'Machine Learning'
     },
   ],
-  technology: [],
+  technology: [
+    {title: 'Es6', imageUrl: 'http://joelcox.io/scripts/logos/es6-logo.png', ageAlt: 'es6 logo'},
+    {title: 'JavaScript', imageUrl: 'http://joelcox.io/scripts/logos/javascript-logo.png', imageAlt: 'JavaScript logo'},
+    {title: 'TypeScript', imageUrl: '', imageAlt: 'TypeScript logo'},
+    {title: 'HTML5', imageUrl: '', imageAlt: 'HTML5 logo'},
+    {title: 'Python', imageUrl: '', imageAlt: 'Python logo'},
+    {title: 'CSS3', imageUrl: '', imageAlt: 'CSS3 logo'},
+    {title: 'React', imageUrl: '', imageAlt: 'React logo'},
+    {title: 'Redux', imageUrl: '', imageAlt: 'Redux logo'},
+    {title: 'Express', imageUrl: '', imageAlt: 'Express logo'},
+    {title: 'Django', imageUrl: '', imageAlt: 'Django logo'},
+    {title: 'MySQL', imageUrl: '', imageAlt: 'MySQL logo'},
+    {title: 'PostgreSQL', imageUrl: '', imageAlt: 'PostgreSQL logo'},
+    {title: 'SQLite', imageUrl: '', imageAlt: 'SQLite logo'},
+    {title: 'FireStore', imageUrl: '', imageAlt: 'Firestore logo'},
+  ],
 }
 
 export default resumeInfo;
