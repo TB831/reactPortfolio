@@ -6,8 +6,10 @@ import Projects from '../components/Projects';
 import Contact from '../components/Contact';
 import About from '../components/About';
 import Technology from '../components/Technology';
+import resumeInfo from '../resumeInfo';
 
 class App extends Component {
+
   render() {
     return (
       <BrowserRouter>
@@ -17,7 +19,7 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/technology" component={Technology} />
-            <Route path="/projects" component={Projects} />
+            <Route path="/projects" render={(props) => <Projects {...props} projects={resumeInfo.projects} />} />
             <Route path="/contact" component={Contact} /> 
           </Switch>
         </div>

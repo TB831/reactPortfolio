@@ -57,7 +57,7 @@ const resumeInfo = {
       imageAlt: 'Machine Learning'
     },
   ],
-  technology: [
-
-  ]
+  technology: [],
 }
+
+export default resumeInfo;
