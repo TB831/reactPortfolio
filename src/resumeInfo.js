@@ -67,10 +67,10 @@ const resumeInfo = {
       {title: 'CSS3', imageUrl: 'https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png', imageAlt: 'CSS3 logo'},
     ],
     frameworks: [
-      {title: 'React', imageUrl: '', imageAlt: 'React logo'},
-      {title: 'Redux', imageUrl: '', imageAlt: 'Redux logo'},
-      {title: 'Express', imageUrl: '', imageAlt: 'Express logo'},
-      {title: 'Django', imageUrl: '', imageAlt: 'Django logo'},
+      {title: 'React', imageUrl: 'https://arcweb.co/wp-content/uploads/2016/10/react-logo-1000-transparent.png', imageAlt: 'React logo'},
+      {title: 'Redux', imageUrl: 'https://avatars0.githubusercontent.com/u/13142323?s=400&v=4', imageAlt: 'Redux logo'},
+      {title: 'Express', imageUrl: 'https://buzz-prod-photos.global.ssl.fastly.net/img/06b9ed56-ced3-4078-bfc8-ca0055a69d61', imageAlt: 'Express logo'},
+      {title: 'Django', imageUrl: 'http://dlyapun.com/static/images/django.png', imageAlt: 'Django logo'},
     ],
     data: [
       {title: 'MySQL', imageUrl: '', imageAlt: 'MySQL logo'},
