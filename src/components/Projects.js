@@ -29,8 +29,7 @@ const renderProjects = (projects) => {
           </div>
           <div className="card-action center">
             <p className="card-title activator grey-text text-darken-4">{project.title}</p>
-            <a href={project.repository}>Repository</a>
-            <a href={project.deployment}>Deployment</a>
+            {renderProjectLinks(project.repository, project.deployment)}
           </div>
           <div className="card-reveal center">
             <span className="card-title grey-text text-dark4">
@@ -42,8 +41,11 @@ const renderProjects = (projects) => {
         </div>
       </div>
     )
-  })
+  });
+}
 
+const renderProjectLinks = (repo, deploy) => {
+  return deploy == null ? <a href={repo}>Repository</a> : <div><a href={repo}>Repository</a><a href={deploy}>Deployment</a></div>
 }
  
 export default Projects;
