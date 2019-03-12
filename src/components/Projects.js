@@ -7,7 +7,7 @@ const Projects = () => {
       { props => (
           <div style={props}>
             <div className="container">
-              <div className="row" style={{padding: '20px'}}>
+              <div className="row">
                 <div className="col s12 m4">
                   <div className="card z-depth-3">
                     <div className="card-image waves-effect waves-block waves-light">
