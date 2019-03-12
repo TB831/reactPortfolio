@@ -57,22 +57,28 @@ const resumeInfo = {
       imageAlt: 'Machine Learning'
     },
   ],
-  technology: [
-    {title: 'Es6', imageUrl: 'http://joelcox.io/scripts/logos/es6-logo.png', ageAlt: 'es6 logo'},
-    {title: 'JavaScript', imageUrl: 'http://joelcox.io/scripts/logos/javascript-logo.png', imageAlt: 'JavaScript logo'},
-    {title: 'TypeScript', imageUrl: '', imageAlt: 'TypeScript logo'},
-    {title: 'HTML5', imageUrl: '', imageAlt: 'HTML5 logo'},
-    {title: 'Python', imageUrl: '', imageAlt: 'Python logo'},
-    {title: 'CSS3', imageUrl: '', imageAlt: 'CSS3 logo'},
-    {title: 'React', imageUrl: '', imageAlt: 'React logo'},
-    {title: 'Redux', imageUrl: '', imageAlt: 'Redux logo'},
-    {title: 'Express', imageUrl: '', imageAlt: 'Express logo'},
-    {title: 'Django', imageUrl: '', imageAlt: 'Django logo'},
-    {title: 'MySQL', imageUrl: '', imageAlt: 'MySQL logo'},
-    {title: 'PostgreSQL', imageUrl: '', imageAlt: 'PostgreSQL logo'},
-    {title: 'SQLite', imageUrl: '', imageAlt: 'SQLite logo'},
-    {title: 'FireStore', imageUrl: '', imageAlt: 'Firestore logo'},
-  ],
+  technology: {
+    languages: [
+      {title: 'Es6', imageUrl: 'http://joelcox.io/scripts/logos/es6-logo.png', ageAlt: 'es6 logo'},
+      {title: 'JavaScript', imageUrl: 'http://joelcox.io/scripts/logos/javascript-logo.png', imageAlt: 'JavaScript logo'},
+      {title: 'TypeScript', imageUrl: 'https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png', imageAlt: 'TypeScript logo'},
+      {title: 'HTML5', imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/html5-10-569380.png', imageAlt: 'HTML5 logo'},
+      {title: 'Python', imageUrl: 'http://a1449.phobos.apple.com/us/r30/Purple4/v4/e8/20/fd/e820fded-8a78-06ac-79d0-f1d140346976/mzl.huoealqj.png', imageAlt: 'Python logo'},
+      {title: 'CSS3', imageUrl: 'https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png', imageAlt: 'CSS3 logo'},
+    ],
+    frameworks: [
+      {title: 'React', imageUrl: '', imageAlt: 'React logo'},
+      {title: 'Redux', imageUrl: '', imageAlt: 'Redux logo'},
+      {title: 'Express', imageUrl: '', imageAlt: 'Express logo'},
+      {title: 'Django', imageUrl: '', imageAlt: 'Django logo'},
+    ],
+    data: [
+      {title: 'MySQL', imageUrl: '', imageAlt: 'MySQL logo'},
+      {title: 'PostgreSQL', imageUrl: '', imageAlt: 'PostgreSQL logo'},
+      {title: 'SQLite', imageUrl: '', imageAlt: 'SQLite logo'},
+      {title: 'FireStore', imageUrl: '', imageAlt: 'Firestore logo'},
+    ]
+  }
 }
 
 export default resumeInfo;

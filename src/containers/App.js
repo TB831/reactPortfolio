@@ -18,8 +18,8 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
-            <Route path="/technology" component={Technology} />
-            <Route path="/projects" render={(props) => <Projects {...props} projects={resumeInfo.projects} />} />
+            <Route path="/technology" render={(props) => <Technology technology={resumeInfo.technology} />} />
+            <Route path="/projects" render={(props) => <Projects projects={resumeInfo.projects} />} />
             <Route path="/contact" component={Contact} /> 
           </Switch>
         </div>
