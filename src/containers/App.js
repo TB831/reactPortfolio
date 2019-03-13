@@ -12,18 +12,24 @@ class App extends Component {
 
   render() {
     return (
-      <BrowserRouter>
-        <div>
-          <NavBar />
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/technology" render={(props) => <Technology technology={resumeInfo.technology} />} />
-            <Route path="/projects" render={(props) => <Projects projects={resumeInfo.projects} />} />
-            <Route path="/contact" component={Contact} /> 
-          </Switch>
-        </div>
-      </BrowserRouter>
+      // <BrowserRouter>
+      //   <div>
+      //     <NavBar />
+      //     <Switch>
+      //       <Route exact path="/" component={Home} />
+      //       <Route path="/about" component={About} />
+      //       <Route path="/technology" render={(props) => <Technology technology={resumeInfo.technology} />} />
+      //       <Route path="/projects" render={(props) => <Projects projects={resumeInfo.projects} />} />
+      //       <Route path="/contact" component={Contact} /> 
+      //     </Switch>
+      //   </div>
+      // </BrowserRouter>
+      <div>
+        <NavBar />
+        <Home />
+        <Technology technology={resumeInfo.technology} />
+        <Projects projects={resumeInfo.projects} />
+      </div>
     );
   }
 }

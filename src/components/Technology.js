@@ -14,7 +14,7 @@ const Technology = (props) => {
         {renderFrameworks(frameworks)}
       </div>
       <div className="row">
-        <h4>Frameworks</h4>
+        <h4>Data</h4>
         {renderData(datas)}
       </div>
     </div>

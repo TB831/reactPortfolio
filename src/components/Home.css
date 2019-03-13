@@ -1,0 +1,6 @@
+.header {
+  background-image: url('../assets/bg.jpg');
+  background-size: cover;
+  height: 100vh;
+  background-position: top;
+}
